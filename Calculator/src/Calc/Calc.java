@@ -36,10 +36,7 @@ public class {
 	/**
 	 * Create the application.
 	 */
-	public Calc() {
-		initialize();
-	}
-
+	
 	/**
 	 * Initialize the contents of the frame.
 	 */
