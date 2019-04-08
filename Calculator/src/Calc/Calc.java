@@ -12,7 +12,7 @@ import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-public class Calculator {
+public class {
 	double num1;
 	double num2;
 	double result;
