@@ -12,17 +12,7 @@ import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-public class {
-	double num1;
-	double num2;
-	double result;
-	String operation;
 
-	private JFrame frame;
-	private JTextField jDisplay;
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
 				try {
 					Calc window = new Calc();
 					window.frame.setVisible(true);
@@ -36,7 +26,10 @@ public class {
 	/**
 	 * Create the application.
 	 */
-	
+	public Calc() {
+		initialize();
+	}
+
 	/**
 	 * Initialize the contents of the frame.
 	 */
