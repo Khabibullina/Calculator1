@@ -25,7 +25,7 @@ public class CalcTest
      */
     public static Test suite()
     {
-        return (Test) new TestSuite(Test.class);
+        return (Test) new TestSuite(CalcTest.class);
     }
 
     /**
