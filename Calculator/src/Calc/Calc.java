@@ -12,7 +12,7 @@ import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-public class Calc {
+public class Calculator {
 	double num1;
 	double num2;
 	double result;
@@ -63,7 +63,7 @@ public class Calc {
 		frame.getContentPane().add(jDisplay);
 		jDisplay.setColumns(10);
 		
-		JButton jB1 = new JButton("1"); /* Добавление кнопки один*/
+		JButton jB1 = new JButton("1"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г®Г¤ГЁГ­*/
 		jB1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String unputnum = jDisplay.getText()+ jB1.getText();
@@ -75,7 +75,7 @@ public class Calc {
 		jB1.setBounds(35, 65, 56, 37);
 		frame.getContentPane().add(jB1);
 		
-		JButton jB2 = new JButton("2"); /* Добавление кнопки два*/
+		JButton jB2 = new JButton("2"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г¤ГўГ */
 		jB2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB2.getText();
@@ -87,7 +87,7 @@ public class Calc {
 		jB2.setBounds(105, 65, 56, 37);
 		frame.getContentPane().add(jB2);
 		
-		JButton jB3 = new JButton("3");/* Добавление кнопки три */
+		JButton jB3 = new JButton("3");/* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГІГ°ГЁ */
 		jB3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+jB3.getText();
@@ -99,7 +99,7 @@ public class Calc {
 		jB3.setBounds(179, 65, 56, 37);
 		frame.getContentPane().add(jB3);
 		
-		JButton jB4 = new JButton("4");/* Добавление кнопки четыре */
+		JButton jB4 = new JButton("4");/* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г·ГҐГІГ»Г°ГҐ */
 		jB4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB4.getText();
@@ -111,7 +111,7 @@ public class Calc {
 		jB4.setBounds(35, 113, 56, 37);
 		frame.getContentPane().add(jB4);
 		
-		JButton jB5 = new JButton("5");/* Добавление кнопки пять */
+		JButton jB5 = new JButton("5");/* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГЇГїГІГј */
 		jB5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB5.getText();
@@ -123,7 +123,7 @@ public class Calc {
 		jB5.setBounds(105, 113, 56, 37);
 		frame.getContentPane().add(jB5);
 		
-		JButton jB6 = new JButton("6"); /* Добавление кнопки шесть */
+		JButton jB6 = new JButton("6"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГёГҐГ±ГІГј */
 		jB6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB6.getText();
@@ -135,7 +135,7 @@ public class Calc {
 		jB6.setBounds(179, 113, 56, 37);
 		frame.getContentPane().add(jB6);
 		
-		JButton jB7 = new JButton("7");/* Добавление кнопки семь */
+		JButton jB7 = new JButton("7");/* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г±ГҐГ¬Гј */
 		jB7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB7.getText();
@@ -147,7 +147,7 @@ public class Calc {
 		jB7.setBounds(35, 161, 56, 37);
 		frame.getContentPane().add(jB7);
 		
-		JButton jB8 = new JButton("8"); /* Добавление кнопки восемь */
+		JButton jB8 = new JButton("8"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГўГ®Г±ГҐГ¬Гј */
 		jB8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB8.getText();
@@ -159,7 +159,7 @@ public class Calc {
 		jB8.setBounds(105, 161, 56, 37);
 		frame.getContentPane().add(jB8);
 		
-		JButton jB9 = new JButton("9"); /* Добавление кнопки девять */
+		JButton jB9 = new JButton("9"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г¤ГҐГўГїГІГј */
 		jB9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB9.getText();
@@ -171,7 +171,7 @@ public class Calc {
 		jB9.setBounds(179, 161, 56, 37);
 		frame.getContentPane().add(jB9);
 		
-		JButton jBplusminus = new JButton("+/-"); /* Добавление кнопки "плюс/минус" */
+		JButton jBplusminus = new JButton("+/-"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ "ГЇГ«ГѕГ±/Г¬ГЁГ­ГіГ±" */
 		jBplusminus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				double plusminus = Double.parseDouble(String.valueOf(jDisplay.getText()));
@@ -184,7 +184,7 @@ public class Calc {
 		jBplusminus.setBounds(35, 209, 56, 37);
 		frame.getContentPane().add(jBplusminus);
 		
-		JButton jB10 = new JButton("0"); /* Добавление кнопки ноль */
+		JButton jB10 = new JButton("0"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г­Г®Г«Гј */
 		jB10.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB10.getText();
@@ -196,7 +196,7 @@ public class Calc {
 		jB10.setBounds(105, 209, 56, 37);
 		frame.getContentPane().add(jB10);
 		
-		JButton jBdot = new JButton("."); /* Добавление кнопки  вещественных чисел */
+		JButton jBdot = new JButton("."); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ  ГўГҐГ№ГҐГ±ГІГўГҐГ­Г­Г»Гµ Г·ГЁГ±ГҐГ« */
 		jBdot.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jBdot.getText();
@@ -208,7 +208,7 @@ public class Calc {
 		jBdot.setBounds(179, 209, 56, 37);
 		frame.getContentPane().add(jBdot);
 		
-		JButton jBplus = new JButton("+"); /* Добавление кнопки сложения */
+		JButton jBplus = new JButton("+"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г±Г«Г®Г¦ГҐГ­ГЁГї */
 		jBplus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -221,7 +221,7 @@ public class Calc {
 		jBplus.setBounds(289, 113, 56, 37);
 		frame.getContentPane().add(jBplus);
 		
-		JButton jBminus = new JButton("-");/* Добавление кнопки вычитания */
+		JButton jBminus = new JButton("-");/* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГўГ»Г·ГЁГІГ Г­ГЁГї */
 		jBminus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -234,7 +234,7 @@ public class Calc {
 		jBminus.setBounds(289, 161, 56, 37);
 		frame.getContentPane().add(jBminus);
 		
-		JButton jBmultiply = new JButton("*"); /* Добавление кнопки умножения */
+		JButton jBmultiply = new JButton("*"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГіГ¬Г­Г®Г¦ГҐГ­ГЁГї */
 		jBmultiply.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -247,7 +247,7 @@ public class Calc {
 		jBmultiply.setBounds(289, 208, 56, 37);
 		frame.getContentPane().add(jBmultiply);
 		
-		JButton jBdivided = new JButton("/"); /* Добавление кнопки деления */
+		JButton jBdivided = new JButton("/"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г¤ГҐГ«ГҐГ­ГЁГї */
 		jBdivided.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -260,7 +260,7 @@ public class Calc {
 		jBdivided.setBounds(289, 258, 56, 37);
 		frame.getContentPane().add(jBdivided);
 		
-		JButton jDclear = new JButton("C"); /* Добавление кнопки удаления */
+		JButton jDclear = new JButton("C"); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ ГіГ¤Г Г«ГҐГ­ГЁГї */
 		jDclear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				jDisplay.setText("");
@@ -271,7 +271,7 @@ public class Calc {
 		jDclear.setBounds(289, 65, 56, 37);
 		frame.getContentPane().add(jDclear);
 		
-		JButton jBequally = new JButton("="); /* Добавление кнопки равенства */
+		JButton jBequally = new JButton("="); /* Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ­Г®ГЇГЄГЁ Г°Г ГўГҐГ­Г±ГІГўГ  */
 		jBequally.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num2 = Double.parseDouble(jDisplay.getText());
@@ -281,25 +281,25 @@ public class Calc {
 					result = num1+num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Выполняет операцию сложения */
+				} /* Г‚Г»ГЇГ®Г«Г­ГїГҐГІ Г®ГЇГҐГ°Г Г¶ГЁГѕ Г±Г«Г®Г¦ГҐГ­ГЁГї */
 				else if ( operation == "-")
 				{
 					result = num1-num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Выполняет операцию вычитания */
+				} /* Г‚Г»ГЇГ®Г«Г­ГїГҐГІ Г®ГЇГҐГ°Г Г¶ГЁГѕ ГўГ»Г·ГЁГІГ Г­ГЁГї */
 				else if ( operation == "*")
 				{
 					result = num1*num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Выполняет операцию умножения */
+				} /* Г‚Г»ГЇГ®Г«Г­ГїГҐГІ Г®ГЇГҐГ°Г Г¶ГЁГѕ ГіГ¬Г­Г®Г¦ГҐГ­ГЁГї */
 				else if ( operation == "/")
 				{
 					result = num1/num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Выполняет операцию деления */
+				} /* Г‚Г»ГЇГ®Г«Г­ГїГҐГІ Г®ГЇГҐГ°Г Г¶ГЁГѕ Г¤ГҐГ«ГҐГ­ГЁГї */
 			}
 		});
 		jBequally.setForeground(new Color(255, 0, 0));
